@@ -1,4 +1,4 @@
-# Build Redux lib from Scratch in my way
+# Building a Redux lib from Scratch in my way
 
 ### From the original API
 
@@ -22,10 +22,11 @@
 
 #### Basic
 
-- [-] `createStore(reducer, [preloadedState], [enhancer])`
-- [-] `getState()`
-- [-] `dispatch(action)`
-- [-] `subscribe(listener)`
+- [-] `createStore(reducer, [initialState], [enhancer]): Store`
+- [-] `getState(): SState`
+- [-] `dispatch(action): void`
+- [-] `subscribe(listener): void`
+- [-] `reducer(state, action): State`
 
 #### Adavanced
 
