@@ -22,19 +22,19 @@
 
 #### Basic
 
-- [-] `createStore(reducer, [initialState], [enhancer]): Store`
-- [-] `getState(): SState`
-- [-] `dispatch(action): void`
-- [-] `subscribe(listener): void`
-- [-] `reducer(state, action): State`
+- `[~] createStore(reducer, [initialState], [enhancer]): Store`
+- `[x] getState(): SState`
+- `[X] dispatch(action): void`
+- `[X] subscribe(listener): void`
+- `[X] reducer(state, action): State`
 
 #### Adavanced
 
-- [-] `combineReducers(reducers)`
-- [-] `applyMiddleware(...middlewares)`
-- [-] `bindActionCreators(actionCreators, dispatch)`
-- [-] `compose(...functions)`
-- [-] `replaceReducer(nextReducer)`
+- `[~] combineReducers(...reducers)`
+- `[ ] applyMiddleware(...middlewares)`
+- `[ ] bindActionCreators(actionCreators, dispatch)`
+- `[ ] compose(...functions)`
+- `[ ] replaceReducer(nextReducer)`
 
 ### Dependancies
 
