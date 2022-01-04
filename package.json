@@ -1,0 +1,11 @@
+{
+  "name": "redux-my-way",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dvsource/redux-my-way.git",
+  "author": "dvsource <virajkaush@gmail.com>",
+  "scripts": {
+    "play": "node ./src/app.js"
+  },
+  "license": "MIT"
+}

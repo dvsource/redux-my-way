@@ -18,6 +18,12 @@
   - `subscribe(listener)`
   - `replaceReducer(nextReducer)`
 
+## Playground
+
+```shell
+yarn play
+```
+
 ## TODO
 
 #### Basic
@@ -35,7 +41,3 @@
 - `[ ] bindActionCreators(actionCreators, dispatch)`
 - `[ ] compose(...functions)`
 - `[ ] replaceReducer(nextReducer)`
-
-### Dependancies
-
-- Lodash (source)[https://github.com/lodash/lodash]
