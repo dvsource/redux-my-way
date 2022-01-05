@@ -33,7 +33,7 @@ yarn play
 - `[X] dispatch(action): void`
 - `[X] subscribe(listener): void`
 - `[X] reducer(state, action): State`
-- `[X] replaceReducer(reducer): State`
+- `[X] replaceReducer(reducer): void`
 
 #### Adavanced
 
