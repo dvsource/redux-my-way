@@ -18,6 +18,24 @@
   - `subscribe(listener)`
   - `replaceReducer(nextReducer)`
 
+## TODO
+
+#### Basic
+
+- [x] `createStore(reducer, [initialState], [enhancer]): Store`
+- [x] `getState(): SState`
+- [x] `dispatch(action): void`
+- [x] `subscribe(listener): void`
+- [x] `reducer(state, action): State`
+
+#### Adavanced
+
+- [x] `combineReducers(...reducers | reducersObj): State`
+- [x] `replaceReducer(nextReducer): void`
+- [ ] `applyMiddleware(...middlewares)`
+- [ ] `bindActionCreators(actionCreators, dispatch)`
+- [ ] `compose(...functions)`
+
 ## Playground
 
 ### Dependancies
@@ -35,22 +53,3 @@ yarn
 ```shell
 yarn play
 ```
-
-## TODO
-
-#### Basic
-
-- [x] `createStore(reducer, [initialState], [enhancer]): Store`
-- [x] `getState(): SState`
-- [x] `dispatch(action): void`
-- [x] `subscribe(listener): void`
-- [x] `reducer(state, action): State`
-- [x] `replaceReducer(reducer): void`
-
-#### Adavanced
-
-- [x] `combineReducers(...reducers | reducersObj)`
-- [ ] `applyMiddleware(...middlewares)`
-- [ ] `bindActionCreators(actionCreators, dispatch)`
-- [ ] `compose(...functions)`
-- [ ] `replaceReducer(nextReducer)`
