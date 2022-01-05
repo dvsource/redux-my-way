@@ -15,13 +15,4 @@ const creteStore = (reducer, initialState = {}, enhancer = null) => {
   return store;
 };
 
-const combineReducers = (...reducers) => {
-  return (state = {}, action) => {
-    reducers.forEach((reducerFn) => {
-      state = reducerFn(state, action);
-    });
-    return state;
-  };
-};
-
-module.exports = { creteStore, combineReducers };
+module.exports = creteStore;

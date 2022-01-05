@@ -28,7 +28,7 @@ yarn play
 
 #### Basic
 
-- `[~] createStore(reducer, [initialState], [enhancer]): Store`
+- `[X] createStore(reducer, [initialState], [enhancer]): Store`
 - `[x] getState(): SState`
 - `[X] dispatch(action): void`
 - `[X] subscribe(listener): void`
@@ -36,7 +36,7 @@ yarn play
 
 #### Adavanced
 
-- `[~] combineReducers(...reducers)`
+- `[X] combineReducers(...reducers)`
 - `[ ] applyMiddleware(...middlewares)`
 - `[ ] bindActionCreators(actionCreators, dispatch)`
 - `[ ] compose(...functions)`

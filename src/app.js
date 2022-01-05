@@ -1,4 +1,5 @@
-const { creteStore, combineReducers } = require('./lib/store');
+const creteStore = require('./lib/store');
+const combineReducers = require('./lib/reducer');
 
 // Playground
 
