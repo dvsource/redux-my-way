@@ -42,3 +42,13 @@ yarn play
 - [ ] `bindActionCreators(actionCreators, dispatch)`
 - [ ] `compose(...functions)`
 - [ ] `replaceReducer(nextReducer)`
+
+### Dependancies
+
+- Lodash [source](https://github.com/lodash/lodash)
+
+#### Install
+
+```shell
+yarn
+```
