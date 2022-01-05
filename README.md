@@ -28,17 +28,17 @@ yarn play
 
 #### Basic
 
-- `[X] createStore(reducer, [initialState], [enhancer]): Store`
-- `[x] getState(): SState`
-- `[X] dispatch(action): void`
-- `[X] subscribe(listener): void`
-- `[X] reducer(state, action): State`
-- `[X] replaceReducer(reducer): void`
+- [x] `createStore(reducer, [initialState], [enhancer]): Store`
+- [x] `getState(): SState`
+- [x] `dispatch(action): void`
+- [x] `subscribe(listener): void`
+- [x] `reducer(state, action): State`
+- [x] `replaceReducer(reducer): void`
 
 #### Adavanced
 
-- `[X] combineReducers(...reducers | reducersObj)`
-- `[ ] applyMiddleware(...middlewares)`
-- `[ ] bindActionCreators(actionCreators, dispatch)`
-- `[ ] compose(...functions)`
-- `[ ] replaceReducer(nextReducer)`
+- [x] `combineReducers(...reducers | reducersObj)`
+- [ ] `applyMiddleware(...middlewares)`
+- [ ] `bindActionCreators(actionCreators, dispatch)`
+- [ ] `compose(...functions)`
+- [ ] `replaceReducer(nextReducer)`
