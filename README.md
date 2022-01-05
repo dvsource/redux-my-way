@@ -33,10 +33,11 @@ yarn play
 - `[X] dispatch(action): void`
 - `[X] subscribe(listener): void`
 - `[X] reducer(state, action): State`
+- `[X] replaceReducer(reducer): State`
 
 #### Adavanced
 
-- `[X] combineReducers(...reducers)`
+- `[X] combineReducers(...reducers | reducersObj)`
 - `[ ] applyMiddleware(...middlewares)`
 - `[ ] bindActionCreators(actionCreators, dispatch)`
 - `[ ] compose(...functions)`
